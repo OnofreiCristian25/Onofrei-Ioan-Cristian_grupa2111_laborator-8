@@ -1,0 +1,164 @@
+<style>
+title {}
+h1 {
+  color:#C098F6;  
+background-color:#FEA169;
+border-style: solid;
+border-color: black;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+#contact {color: gray;
+ text-decoration: underline;
+	font-size:15px;
+}
+
+body { 
+text-align: left;
+}
+ p{
+margin-left:auto;
+  margin-right: 3%;	 color: SlateBlue;
+ text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;}
+ 
+ table, td, th {
+  border: 1px solid #9846D1;
+  border: 2px solid #9846D1;
+}
+
+ td {
+  text-align: left;
+}
+
+table{
+	width: 50%;
+	text-align: left;
+	border-collapse: collapse;
+margin-left:0%;
+  margin-right:auto;
+}
+#img1 { width: 450px;
+ margin-left:auto;
+  margin-right: 3%;
+	text-align: left;
+}
+#div1 { border-style: solid;
+	border-color: #CF3F3F;
+	background-color: #A7E1EF;
+	
+}
+#p2{
+	text-align:left;
+	color: gray;
+ text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+}
+li{
+	text-align:left;
+}
+#poze {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  margin-left:4.5%;
+  margin-right:4.5%;
+}
+#abb {
+  padding: 10px;
+  text-align: left;
+}
+#div2 { 
+	background-color: SlateBlue;
+	
+}
+
+
+
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: black;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.mySlides,
+.numbertext{
+	text-align:center;
+}
+
+.container{
+	background:SlateBlue;
+}
+
+</style>
